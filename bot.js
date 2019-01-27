@@ -1,13 +1,13 @@
-const Commando = require('discord.js-commando');
-const bot = new Commando.Client();
+const Discord = require('discord.js');
+const client = new Discord.Client();
 const prefix = '!';
 
-bot.on('ready', () => 
+client.on('ready', () => 
 {console.log('Bot started.')
 });
 
 //aaaaaaaaaaaaaaaaaaa
-bot.on('message',function(message)
+client.on('message',function(message)
 {
     if(message.content == 'soulgear')
     {
@@ -43,7 +43,7 @@ bot.on('message',function(message)
 });
 
 
-bot.on('message',function(message)
+client.on('message',function(message)
 {
     if(message.content == 'imnotsalty')
     {
@@ -120,4 +120,4 @@ bot.on('message',function(message)
     message.channel.sendMessage({files:["C:/Users/Marik/Desktop/Grace/commands/emote/yslime.png"]});
     }
 });
-bot.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
