@@ -2,8 +2,11 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '!';
 
-client.on('ready', () => 
-{console.log('Bot started.')
+const bot = new Discord.Client({disableEveryone: true});
+client.on("ready", async() => {
+    console.log(`${bot.user.username} is online!!!`);
+    
+    client.user.setActivity("Lucius", {type:"Rerolling for"});
 });
 
 //aaaaaaaaaaaaaaaaaaa
@@ -46,77 +49,53 @@ client.on('message',function(message)
 {
     if(message.content == 'imnotsalty')
     {
-        message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/imnotsalty.png"]});
+        message.channel.send("https://imgur.com/PSeSDWW");
     }
-    if(message.content == 'sounee')
-    {
-        message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/sounee.png"]});
-    }
+    
     if(message.content == 'watchin')
     {
-        message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/watchin.png"]});
+        message.channel.send("https://imgur.com/9v69zMi");
     }
+    
     if(message.content == 'shikkari')
     {
-        message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/shikkari.gif"]});
+        message.channel.send("https://imgur.com/tU2VQQW");
     }
+    
     if(message.content == 'uguh')
     {
-        message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/uguh.png"]});
+        message.channel.send("https://imgur.com/1ajKXE9");
     }
-    if(message.content == 'kimoi')
-    {
-        message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/kimoi.png"]});
-    }
-
+   
     if(message.content == 'imawhale')
     {
-        message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/imawhale.png"]});
+        message.channel.send("https://imgur.com/FoZAon2");
     }
 
     if(message.content == 'ohmygah')
     {
-        message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/ohmygah.png"]});
+        message.channel.send("https://imgur.com/MAI37HS");
     }
 
     if(message.content == 'waaa')
     {
-        message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/waaa.png"]});
+        message.channel.send("https://imgur.com/YSsMqIY");
     }
 
     if(message.content == 'hah?')
     {
-        message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/hah.png"]});
+        message.channel.send("https://imgur.com/Ns25fcY");
     }
-
-    if(message.content == 'aghaghh')
-    {
-    message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/aghaghh.png"]});
-    } 
    
     if(message.content == 'oyaoya')
     {
-    message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/oyaoya.png"]});
+    message.channel.send("https://imgur.com/ogavh0h");
     }
-
-    if(message.content == 'wheresmahbook')
-    {
-    message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/mahbook.png"]});
-    }
-
+    
     if(message.content == 'imconcern')
     {
-    message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/concern.png"]});
+    message.channel.send("https://imgur.com/PoRlAV3");
     }   
 
-    if(message.content == 'hum!')
-    {
-    message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/hum.png"]});
-    }
-
-    if(message.content == 'needmoreslime')
-    {
-    message.channel.send({files:["C:/Users/Marik/Desktop/Grace/commands/emote/yslime.png"]});
-    }
 });
 client.login(process.env.BOT_TOKEN);
