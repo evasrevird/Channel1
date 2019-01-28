@@ -47,6 +47,10 @@ client.on('message',function(message)
 
 client.on('message',function(message)
 {
+    if(message.content == 'floriavs3musk')
+    {
+        message.channel.send("https://imgur.com/d1X2MZO");
+    }
     if(message.content == 'imnotsalty')
     {
         message.channel.send("https://imgur.com/PSeSDWW");
