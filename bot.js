@@ -43,6 +43,10 @@ client.on('message',function(message)
     {
         message.channel.send("https://imgur.com/vaH2yCL");
     }
+    if(message.content == 'graceogdoad')
+    {
+        message.channel.send("https://imgur.com/24MWKVa");
+    }
 });
 
 client.on('message',function(message)
