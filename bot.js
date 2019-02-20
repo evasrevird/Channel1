@@ -63,7 +63,7 @@ client.on('message',function(message)
     }
     if(message.content == 'cdfhterion')
     {
-        message.channel.send("105k https://imgur.com/CI7P6Uz");
+        message.channel.send("105k https://imgur.com/jiP2dEr");
     }
     if(message.content == 'cdfharcstar')
     {
