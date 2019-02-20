@@ -68,7 +68,7 @@ client.on('message',function(message)
     if(message.content == 'cdfharcstar')
     {
         message.channel.send("530k https://imgur.com/NIxzsNq");
-    
+    }
 });
 
 client.on('message',function(message)
