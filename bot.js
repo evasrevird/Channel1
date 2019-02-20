@@ -51,6 +51,24 @@ client.on('message',function(message)
     {
         message.channel.send("430k https://imgur.com/CI7P6Uz");
     }
+    
+    //cdfh
+    if(message.content == 'cdfhogdoad')
+    {
+        message.channel.send("570k https://imgur.com/iulAFMQ");
+    }
+    if(message.content == 'cdfhzaratan')
+    {
+        message.channel.send("83k https://imgur.com/surBFkM");
+    }
+    if(message.content == 'cdfhterion')
+    {
+        message.channel.send("105k https://imgur.com/CI7P6Uz");
+    }
+    if(message.content == 'cdfharcstar')
+    {
+        message.channel.send("530k https://imgur.com/NIxzsNq");
+    
 });
 
 client.on('message',function(message)
