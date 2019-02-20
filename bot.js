@@ -47,6 +47,10 @@ client.on('message',function(message)
     {
         message.channel.send("https://imgur.com/24MWKVa");
     }
+    if(message.content == 'slimeogdoad')
+    {
+        message.channel.send("430k https://imgur.com/24MWKVa");
+    }
 });
 
 client.on('message',function(message)
