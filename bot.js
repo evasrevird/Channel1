@@ -49,7 +49,7 @@ client.on('message',function(message)
     }
     if(message.content == 'slimeogdoad')
     {
-        message.channel.send("430k https://imgur.com/24MWKVa");
+        message.channel.send("430k https://imgur.com/CI7P6Uz");
     }
 });
 
